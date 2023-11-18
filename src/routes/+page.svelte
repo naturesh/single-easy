@@ -117,7 +117,8 @@ The shipping firm provided compensation for the damaged camera.
 She has a keen interest in learning new languages.
 그녀는 새 언어를 배우는데 강한 흥미를 가지고 있다.
 He was obsessed by his fear of the operation.
-그는 수술 공포증에 사로잡혀 있다. The traffic continued on for miles on end.
+그는 수술 공포증에 사로잡혀 있다.
+The traffic continued on for miles on end.
 교통량이 수 마일을 계속해서 이어졌다.
 The artist depicted children playing at a nursery.
 그 예술가는 유치원에서 놀고 있는 아이들을 그렸다.
