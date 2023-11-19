@@ -319,7 +319,7 @@ Rain is typical British weather.
         <div class="font-mono text-lg leading-loose w-full">
             {#if en.length}
                 {#each en as e}
-                    <button class={e.b ? 'blur-sm' : '' + 'inline-block duration-300 border-none'} on:click={ async () => { e.b = !e.b}}>
+                    <button class={e.b ? 'blur' : '' + 'inline-block duration-300 border-none'} on:click={ async () => { e.b = !e.b}}>
                         <span class={e.e ? 'mr-2' : ''}>
                             {e.d}
                         </span>
