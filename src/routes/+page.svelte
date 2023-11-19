@@ -364,3 +364,12 @@ Rain is typical British weather.
         </div>
     </div>
 </div>
+
+
+<style>
+    :global(body) {
+        touch-action: manipulation;
+    }
+</style>
+
+
