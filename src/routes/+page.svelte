@@ -337,10 +337,13 @@ Rain is typical British weather.
 
     <div class="mt-5 w-full fixed bottom-7">
         <div class="w-5/6 flex flex-row m-auto">
-            <div class="w-1/3">
+            <div class="w-1/4">
+                <button class="h-14 w-5/6 m-auto block rounded-xl hover:scale-110 duration-200 bg-slate-50 text-slate-500 text-xs animate-bounce" on:click={ async () => index -= 1}>Back</button>
+            </div>
+            <div class="w-1/4">
                 <button class="h-14 w-5/6 m-auto block rounded-xl hover:scale-110 duration-200 bg-slate-50 text-slate-500 text-xs animate-bounce" on:click={ async () => index += 1}>Next</button>
             </div>
-            <div class="w-1/3">
+            <div class="w-1/4">
                 <button class="h-14 w-5/6 m-auto block rounded-xl hover:scale-110 duration-200 bg-slate-50 text-slate-500 text-xs animate-bounce" on:click={ async () => {
                     en = en.map( i => {
                         i.b = false
@@ -348,7 +351,7 @@ Rain is typical British weather.
                     })
                 }}>show</button>
             </div>
-            <div class="w-1/3">
+            <div class="w-1/4">
                 <button class="h-14 w-5/6 m-auto block rounded-xl hover:scale-110 duration-200 bg-slate-50 text-slate-500 text-xs" on:click={ async () =>{
                     const data = dictionary[index]
 
